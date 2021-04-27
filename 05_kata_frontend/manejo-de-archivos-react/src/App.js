@@ -19,9 +19,6 @@ function App() {
         <Route exact path="/blog">
           <Blog />
         </Route>
-        <Route exact path="/contact">
-          <Contact />
-        </Route>
         <Redirect push to="/" />
       </Switch>
     </Router>
